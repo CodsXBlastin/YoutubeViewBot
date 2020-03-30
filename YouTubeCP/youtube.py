@@ -162,7 +162,6 @@ class Views(Browser):
                 # if self.ip_usage >= self.max_usage:
                     # self.ip = None
 
-
 if __name__ == '__main__':
 
     # arguments
