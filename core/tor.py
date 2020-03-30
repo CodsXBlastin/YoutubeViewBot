@@ -4,7 +4,6 @@ import socket
 from subprocess import getoutput as shell
 from time import sleep
 
-
 class Tor(object):
 
     def __init__(self):
