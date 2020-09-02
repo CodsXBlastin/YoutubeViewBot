@@ -5,7 +5,7 @@ import random
 from string import ascii_letters
 from time import sleep
 
-
+#Browser Class is an Object? Todo
 class Browser(object):
 
     def __init__(self):
