@@ -1,6 +1,6 @@
 from requests import get as urlopen
 
-
+#Stop Calling this an IP Grabber
 class IP(object):
     ''' Provides clean IP addresses '''
 
