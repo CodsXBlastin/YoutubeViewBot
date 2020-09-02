@@ -1,5 +1,5 @@
 class Queue(object):
-
+#Todo:
     def __init__(self, size):
         self.queue = []
         self.max_size = size
@@ -7,5 +7,6 @@ class Queue(object):
     def put(self, item):
         if len(self.queue) == self.max_size:
             self.queue.pop(0)
+            
         else:
             self.queue.append(item)
