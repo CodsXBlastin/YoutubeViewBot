@@ -16,7 +16,7 @@ class Views(Browser, Tor):
 
     def __init__(self, urllist, visits, min, max):
 
-        self.bots = 5 # max amount of bots to use
+        self.bots = 3 # max amount of bots to use; can be changed at later time; atm used for sorted amount
         self.count = 0 # returning bots
         self.ip = None
         self.alive = True
