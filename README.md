@@ -1,3 +1,5 @@
+# BE AWARE THIS PROGRAM HAS LIMITED TESTING; EXPECT BUGS
+
 # Usage
 ```sh
  $ python youtube.py [visits] [youtubeLinks.txt] [minWatch] [maxWatch]
