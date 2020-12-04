@@ -15,7 +15,8 @@
  - python youtube.py 300 urls.txt 38 65
 
 # Note
- - Don't forget to have PySocks
+ - Don't forget to have PySocks and Mechanize
 ```py
-pip install PySocks
+pip install pysocks
+pip install mechanize
 ```
