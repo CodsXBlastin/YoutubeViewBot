@@ -1,7 +1,12 @@
 import socks
 import socket
 
-from subprocess import getoutput as shell
+from os import system as shell
+import sys
+if sys.version_info.major == 2:
+    from commands import getoutput
+else:
+    from subprocess import getoutput
 from time import sleep
 
 class Tor(object):
