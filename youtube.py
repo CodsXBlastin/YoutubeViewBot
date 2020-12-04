@@ -3,6 +3,7 @@ from os import path
 from random import randint
 from subprocess import call
 from subprocess import getoutput as shell
+# TODO: ^FIX THIS MIS-CALL^
 from sys import exit
 from threading import Thread
 from time import sleep
