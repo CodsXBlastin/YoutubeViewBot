@@ -2,7 +2,8 @@ from argparse import ArgumentParser
 from os import path
 from platform import system
 from random import randint
-from requests import get as urlopen
+from requests import get as urlopen 
+# ^TODO: Fix this calling inappropriately^
 from subprocess import call
 from sys import exit
 from threading import Thread
