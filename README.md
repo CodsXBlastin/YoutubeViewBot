@@ -13,3 +13,9 @@
 
 # Example
  - python youtube.py 300 urls.txt 38 65
+
+# Note
+ - Don't forget to have PySocks
+```py
+pip install PySocks
+```
