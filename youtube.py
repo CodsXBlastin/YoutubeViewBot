@@ -2,7 +2,10 @@ from argparse import ArgumentParser
 from os import path
 from random import randint
 from subprocess import call
-from subprocess import getoutput as shell
+try:
+    from subprocess import getoutput as shell
+except ImportError:
+    from commands import getoutput as shell
 from sys import exit
 from threading import Thread
 from time import sleep
@@ -116,7 +119,7 @@ if __name__ == '__main__':
     youtube_views = Views(args.urllist, args.visits, args.min, args.max)
 
     # does tor exists?
-    if not path.exists('/usr/sbin/tor'):
+    if not path.exists('/usr/local/Cellar/tor/0.4.3.6'):
         try:youtube_views.installTor()
         except KeyboardInterrupt:exit('Exiting ...')
         if all([not path.exists('/usr/sbin/tor'), youtube_views.alive]):
