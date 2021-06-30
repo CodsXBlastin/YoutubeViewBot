@@ -16,7 +16,7 @@
 
 # Note
  - Don't forget to have PySocks and Mechanize
-```py
+```python
 pip install pysocks
 pip install mechanize
 ```
