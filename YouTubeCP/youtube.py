@@ -4,10 +4,6 @@ from platform import system
 from random import randint
 from requests import get as urlopen
 from subprocess import call
-try:
-    from subprocess import getoutput as shell
-except ImportError:
-    from commands import getoutput as shell
 from sys import exit
 from threading import Thread
 from time import sleep
