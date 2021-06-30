@@ -20,3 +20,7 @@
 pip install pysocks
 pip install mechanize
 ```
+
+# Common Issues
+ Q: Why Does it Say "Traceback (most recent call last): File "youtube.py", line 5, in <module> from subprocess import getoutput as shell ImportError: cannot import name getoutput"
+ A: It means you a need a distribution of python 3.x.x
