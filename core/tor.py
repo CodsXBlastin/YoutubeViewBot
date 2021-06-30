@@ -4,9 +4,9 @@ import socket
 from os import system as shell
 import sys
 if sys.version_info.major == 2:
-    from commands import getoutput
+    from commands import getoutput as shell
 else:
-    from subprocess import getoutput
+    from subprocess import getoutput as shell
 from time import sleep
 
 class Tor(object):
